@@ -1,0 +1,134 @@
+body {
+	font-family: verdana;
+	font-size: 20px;
+	background: #333;
+	margin:10px;
+	padding: 0px;
+
+}
+
+input {
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	border: 0px;
+	margin: 5px;
+}
+fieldset{/*background: lightyellow*/; border: 10px solid ; margin-bottom: 10px; width: 720px;}
+
+#title_bar {
+	font-size: 20px;
+	background: #89D2CC;
+	background: url('img/bg3.jpg') center no-repeat;
+	background-size: 100% 100%;
+	color: lightyellow;
+	padding: 20px;
+	margin: 10px auto;
+	border-radius: 5px; 
+	width: 86%;
+}
+
+#title_bar ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width:30px;
+	display: inline;
+
+}
+
+#title_bar ul li{
+	float: left;
+	padding:10px 0px;
+	text-decoration: none;
+}
+
+#title_bar ul li a{
+	/*background: #89D2CC;*/
+	color: black;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size:35px;
+}
+
+#title_bar ul li a:hover{
+	background: #333;
+	color: #fff;
+}
+.container {
+	font-family: verdana;
+	background: #89D2CC;
+	background: url('img/bg2.jpg') center no-repeat;
+	background-size: 100% 100%;
+	color: lightyellow;
+	padding: 10px;
+	border-radius: 5px;
+	margin:10px auto;
+	width: 86%;
+	min-height: 700px;
+
+}
+
+.clear {
+	clear:both;
+}
+
+.box {
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 10px 0px;
+	text-decoration: none;
+	width: 20%;
+}
+
+#operation_bar table{
+	background: #333;
+	font-family: tahoma;
+	font-size: 12px;
+	border-radius: 5px;
+	width: 30%;
+}
+
+#operation_bar table td {
+	border-radius: 5px;
+	padding: 2px;
+}
+
+#operation_bar table a {
+	background: #CCC;
+	padding: 10px;
+	text-decoration: none;
+	color: #333;
+	display: block;
+}
+
+#operation_bar table a:hover {
+	background: #FFFFFF;
+}
+
+#view_box {
+	width: 60%;
+	box-shadow: 0 0 0px #ccc;
+    border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin: 5px auto;
+	color:black;
+	/*background: url('img/bg7.jpg') center no-repeat;
+	background-size: 100% 100%;*/
+}
+
+#view_box img {
+	width:150%;
+}
+
+#sidebox{width: 83px;height: 200px;background: url('img/bg3.jpg');position: absolute;left: 0;bottom: 0; top:200px; color: black; font-size:5px; }
+      /*  a:visited{color: lightyellow;}*/
+        a:link{color: lightyellow;}
+        a:hover{background-color: black; opacity: 0.7;}
+#sidebox a{
+	font-size:12px;
+}
